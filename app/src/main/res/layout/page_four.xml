@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView3"
+        android:src="@drawable/page_four"
+        android:scaleType="centerCrop"
+        android:alpha="0.6" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sofia"
+        android:id="@+id/textView7"
+        android:textColor="#f11a1a"
+        android:typeface="serif"
+        android:textSize="40dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sofia is the capital and largest city of Bulgaria. Sofia is the 15th largest city in the European Union with population of more than 1.2 million people. The city is located at the foot of Vitosha Mountain in the western part of the country, within less than 50 kilometres (31 mi) drive from the Serbian border. Its location in the centre of the Balkan peninsula means that it is the midway between the Black Sea and the Adriatic Sea, whereas the Aegean Sea is the closest to it."
+        android:id="@+id/textView6"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:textIsSelectable="true"
+        android:textSize="16dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#810c0c" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Previous"
+        android:id="@+id/pFourPrevious"
+        android:textColor="#000000"
+        android:typeface="serif"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:background="#1de4d6"
+        android:padding="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:id="@+id/pFourNext"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="450dp"
+        android:background="#0ee2f9"
+        android:textColor="#000000"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:typeface="serif" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:id="@+id/p4Button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="370dp" />
+</RelativeLayout>

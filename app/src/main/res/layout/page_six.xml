@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView5"
+        android:src="@drawable/page_six"
+        android:scaleType="centerCrop"
+        android:alpha="0.5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Banská Bystrica (Slovak pronunciation: [ˈbanskaː ˈbistritsa], also known by other alternative names) is a city in central Slovakia located on the Hron River in a long and wide valley encircled by the mountain chains of the Low Tatras, the Veľká Fatra, and the Kremnica Mountains. With 78 327 inhabitants, Banská Bystrica is the sixth most populous municipality in Slovakia."
+        android:id="@+id/textView3"
+        android:textColor="#bf0909"
+        android:typeface="serif"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginRight="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Banská Bystrica"
+        android:id="@+id/textView10"
+        android:textColor="#e22c2c"
+        android:typeface="serif"
+        android:textSize="35dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="location"
+        android:id="@+id/p6Button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp" />
+</RelativeLayout>

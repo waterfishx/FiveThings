@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView4"
+        android:src="@drawable/page_five"
+        android:scaleType="centerCrop"
+        android:alpha="0.5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reykjavík"
+        android:id="@+id/textView9"
+        android:textSize="40dp"
+        android:typeface="serif"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#f71414" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reykjavík is the capital and largest city of Iceland. It has a latitude of 64°08&apos; N, making it the world&apos;s northernmost capital of a sovereign state and a popular tourist destination. It is located in southwestern Iceland, on the southern shore of the Faxaflói Bay. With a population of around 120,000 (and over 200,000 in the Capital Region), it is the heart of Iceland&apos;s cultural, economic and governmental activity."
+        android:id="@+id/textView8"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#810909"
+        android:typeface="serif"
+        android:textIsSelectable="true"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Previous"
+        android:id="@+id/pFivePrevious"
+        android:typeface="serif"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:background="#13ecde"
+        android:padding="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="450dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:id="@+id/pFiveNext"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="450dp"
+        android:padding="10dp"
+        android:textColor="#000000"
+        android:background="#0aebe8"
+        android:typeface="serif"
+        android:textIsSelectable="false"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="location"
+        android:id="@+id/p5Button"
+        android:singleLine="false"
+        android:layout_marginTop="370dp"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
